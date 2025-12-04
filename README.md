@@ -11,7 +11,7 @@ This project is an end-to-end Machine Learning application designed to classify 
 Using the **UCI Seeds Dataset**, I developed a Feed-Forward Neural Network (ANN) that analyzes distinct physical features such as Area, Perimeter, and Compactness to automate the sorting process.
 
 ## 🚀 Live Demo
-**[Click here to view the Live App]( INSERT_YOUR_STREAMLIT_LINK_HERE )**
+**[Click here to view the Live App]( https://vinay-wheat-seeds-classifier-app.streamlit.app/ )**
 
 ## 📊 Model Performance
 The model was trained on 210 samples using a 80/20 train-test split.
@@ -26,3 +26,4 @@ The model was trained on 210 samples using a 80/20 train-test split.
 - **Deployment:** Streamlit Cloud
 
 ## 📂 Project Structure
+├── app.py # The main Streamlit application ├── seeds_model.keras # The trained Neural Network model ├── scaler.pkl # The fitted StandardScaler object ├── requirements.txt # List of dependencies └── README.md # Project documentation
